@@ -1,0 +1,17 @@
+# Numerical stack for the Lanczos / exact-diagonalisation tutorial.
+numpy>=1.26
+scipy>=1.11
+matplotlib>=3.8
+
+# Notebook front-end
+jupyterlab>=4.0
+notebook>=7.0
+ipykernel>=6.29
+
+# Used by setup.sh to (re)generate and smoke-test the notebook
+nbformat>=5.9
+nbconvert>=7.10
+
+# Tensor networks / DMRG, for the follow-on notebook (see DMRG_suggestion.md).
+# Pure Python on numpy+scipy; ships FermiHubbardChain and abelian charge conservation.
+physics-tenpy>=1.0
